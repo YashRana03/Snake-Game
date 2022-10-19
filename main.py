@@ -2,7 +2,6 @@ from turtle import Screen, Turtle
 from snake import Snake
 from food import Food
 from scoreboard import ScoreBoard
-# from logo import game_on
 import time
 
 game_on = True
