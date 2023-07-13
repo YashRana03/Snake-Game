@@ -13,6 +13,17 @@ screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
 
+tur = Turtle()
+tur.color("white")
+tur.penup()
+tur.goto(-300, -300)
+tur.pendown()
+tur.goto(-300, 300)
+tur.goto(300, 300)
+tur.goto(300, -300)
+tur.goto(-300, -300)
+tur.hideturtle()
+
 
 snake = Snake()
 food = Food()
